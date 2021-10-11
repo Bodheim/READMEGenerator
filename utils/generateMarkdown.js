@@ -53,10 +53,10 @@ function generateMarkdown(response) {
   [Description](#description)  
   [Installation](#installation)  
   [Usage](#usage)  
-  [License](#license)  
   [Tests](#tests)  
   [Contributing](#contributing)  
-  [Questions](#questions)
+  [Questions](#questions)  
+  [License](#license)
 
   ## Description
   ${response.description}
@@ -70,7 +70,7 @@ function generateMarkdown(response) {
   ## Usage
   Run
   > ${response.usage}
-  
+
   to run the program.
 
   ## Tests
@@ -79,16 +79,16 @@ function generateMarkdown(response) {
   
   to test the program
   
-  ${renderLicenseSection(response.license)}  
-  ${renderLicenseBadge(response.license)}
-
   ## Contributing
   Contact ${response.email} to a get a pull request.
 
   ## Questions
-  Contact ${response.email} for any questions.
-  Github username: ${response.github}
-  Link to my github profile: ${response.link}
+  Contact ${response.email} for any questions.  
+  Github username: ${response.github}  
+  Link to my github profile: https://github.com/${response.github}
+  
+  ${renderLicenseSection(response.license)}  
+  ${renderLicenseBadge(response.license)}
   `;
 }
 

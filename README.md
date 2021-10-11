@@ -1,56 +1,47 @@
-# README Generator
+# Book Search Engine
+  
+  ## Table of Contents
+  [Description](#description)  
+  [Installation](#installation)  
+  [Usage](#usage)  
+  [Tests](#tests)  
+  [Contributing](#contributing)  
+  [Questions](#questions)
+  [License](#license)
 
-## Table of Contents
+  ## Description
+  My assignment is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
 
-[Description](#description)  
- [Installation](#installation)  
- [Usage](#usage)  
- [License](#license)  
- [Tests](#tests)  
- [Contributing](#contributing)  
- [Questions](#questions)
+  ## Installation
+  Run
+  > npm i & npm install @apollo/client
+  
+  to pull in dependencies.
 
-## Description
+  ## Usage
+  Run
+  > npm run build and git push heroku master
 
-This README was generated using this application. A link to a video on application use can be seen here: https://drive.google.com/file/d/1PKttth35IbDWxA-PPF-pjrT8ybPQuPYe/view This project uses Node.js and JS with the module inquirer to create a CLI based README generator by prompting the user to input a veriety of information for required information in a README file. The README is then generated and formatted automatically using the user input.
+  to run the program.
 
-## Installation
+  ## Tests
+  Run
+  > npm run test
+  
+  to test the program
+  
+  ## Contributing
+  Contact abby.castelow@gmail.com to a get a pull request.
 
-Run
-
-> npm i
-
-to pull in dependencies.
-
-## Usage
-
-Run
-
-> node index.js
-
-to run the program.
-
-## Tests
-
-Run
-
-> npm run test
-
-to test the program
-
-## License
-
-MIT
-
-https://opensource.org/licenses/MIT  
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Contributing
-
-Contact abby.castelow@gmail.com to a get a pull request.
-
-## Questions
-
-Contact abby.castelow@gmail.com for any questions.
-Github username: Bodheim
-Link to my github profile: undefined
+  ## Questions
+  Contact abby.castelow@gmail.com for any questions.  
+  Github username: Bodheim  
+  Link to my github profile: https://github.com/Bodheim
+  
+  ## License
+    
+  MIT 
+    
+  https://opensource.org/licenses/MIT  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
